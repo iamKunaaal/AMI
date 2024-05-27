@@ -1,11 +1,4 @@
-@media only screen and (max-width: 1110px){
-    .nav .nav-item{
-        display: none;
-    }
-    .logo {
-        width: 190px;
-    }
-}
+
 
 @media screen and (max-width: 768px) {
     .Explore-P {
@@ -46,6 +39,10 @@
             border-radius: 0;
             /* padding: 30px; */
         }
+        .frame-item {
+          
+          box-shadow: none !important;
+      }
         .left, .right {
           width: 100%;
           justify-content: center;
@@ -224,7 +221,9 @@
         padding-left: 0px;
         padding: 0px;
     }
-
+    .left.leftpad.abovepad {
+      padding-top: 60px;
+  }
     .left.leftpad {
         padding-left: 25px;
         padding-right: 25px;
@@ -287,6 +286,11 @@ section:nth-child(2) img {
   width: 300px;
   border-radius: 35px;
   box-shadow: 1px 1px 5px #000000c2;
+}
+section.res-curv-sec.aboutsec img {
+  border-radius: 0px !important;
+  box-shadow: none;
+  width: auto !important;
 }
 }
 @media (max-width: 1107px) {
@@ -377,4 +381,10 @@ top: 5px;
     height: 30px;
     font-size: 15px;
   }
+  }
+  @media (max-width: 1226px){
+    .vector-parent {
+      height: 277px;
+  }
+
   }
